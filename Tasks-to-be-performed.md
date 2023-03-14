@@ -111,8 +111,8 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 			- If there are less than 5 students write "Ranked grading requires at least 5 students." to the Console.
 			- If there are 5 or more students call the base class's `CalculateStudentStatistics` method using `base.CalculateStudentStatistics`.
 
-	- [ ] Update `StartingUserInterface`'s `CreateCommand` method
-		- [ ] Update `CreateCommand`'s Conditions
+	- [X] Update `StartingUserInterface`'s `CreateCommand` method
+		- [X] Update `CreateCommand`'s Conditions
 			- When checking the `parts.Length` it should check that `parts.Length` is not 3.
 			- If `parts.Length` is not 3 write "Command not valid, Create requires a name and type of gradebook." to the Console.
 		- [ ] return a new GradeBook based on the provided type
